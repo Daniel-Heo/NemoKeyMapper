@@ -514,6 +514,14 @@ void CNemoKeyMapperDlg::OnClickedSave()
 	pStaticControl1->GetWindowText(key1);
 	pStaticControl2->GetWindowText(key2);
 
+	// key 체크 확인
+	if (key1.IsEmpty() || key2.IsEmpty()) {
+		CString cst = StringTableToCString(IDS_CAUTION_NOKEY);
+		CString cst2 = StringTableToCString(IDS_ALERT);
+		MessageBox(cst, cst2, MB_OK | MB_ICONINFORMATION);
+		return;
+	}
+
 	std::string key_str = CStringToString(key1);
 	CString text1 = StringToCString(key_list.value(key_str, ""));
 	key_str = CStringToString(key2);
