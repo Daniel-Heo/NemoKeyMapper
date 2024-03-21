@@ -14,6 +14,7 @@
 #define IDS_ERROR_WRITE_REGIST          106
 #define IDS_SUCCESS_WRITE_REGIST        107
 #define IDS_ERR_OPENJSON                108
+#define IDS_CAUTION_NOKEY               109
 #define IDR_MAINFRAME                   127
 #define IDR_MENU1                       129
 #define IDC_INPUT_LIST                  1000
@@ -35,7 +36,7 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        133
+#define _APS_NEXT_RESOURCE_VALUE        145
 #define _APS_NEXT_COMMAND_VALUE         32773
 #define _APS_NEXT_CONTROL_VALUE         1016
 #define _APS_NEXT_SYMED_VALUE           101
