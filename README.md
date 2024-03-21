@@ -1,3 +1,5 @@
+![](thumbnail.png?raw=true)
+
 # NemoKeyMapper (English)
 
 NemoKeyMapper is a PC program that allows users to change keyboard key mappings and register them in the registry. Since registration in the registry is required, administrative privileges are necessary. There should be no issues if you apply the changes as an administrator when prompted.
